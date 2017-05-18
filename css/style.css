@@ -1,0 +1,60 @@
+body{
+  margin: 0 auto;
+  font-family: 'Lato', sans-serif;
+}
+
+.game-body{
+  margin: 120px auto auto auto;
+  padding-top: 15px;
+  width: 325px;
+  height: 360px;
+  border: 1px solid black;
+  text-align: center;
+
+}
+.row1{
+  display: block;
+}
+.row2{
+  display: block;
+}
+
+.square{
+  margin: 5px 0 10px 10px;
+  height: 100px;
+  width: 115px;
+  border: 1px solid black;
+  /*margin-bottom: 10px;*/
+  display: inline-block;
+
+}
+
+.small-screen{
+  margin: 10px 10px 10px 20px;
+  /*padding: 10px 0 0 0;*/
+  height: 50px;
+  width: 50px;
+  border: 1px solid black;
+  display: inline-block;
+  font-size: 1.2em;
+  font-family: font-family: 'Press Start 2P', cursive;;
+}
+
+.green-btn, .red-btn, .yellow-btn{
+  margin: 1.5%;
+  display: inline-block;
+  color: #333;
+  border: 0.5px solid;
+}
+
+.green-btn{
+  background-color: #0ba91e;
+}
+
+.red-btn{
+  background-color: #ee3838;
+}
+
+.yellow-btn{
+  background-color: #f7ef19;
+}
