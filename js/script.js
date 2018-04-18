@@ -1,6 +1,3 @@
-$(function(){
-
-});
 
 // global vars
 var game_count = 0;
